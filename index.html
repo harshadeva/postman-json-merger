@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postman JSON Merger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Postman JSON Merger</h1>
+    <div class="container">
+        <input type="file" id="file1" accept=".json">
+        <input type="file" id="file2" accept=".json">
+        <button id="compareBtn">Compare and Merge</button>
+    </div>
+    <div id="differences"></div>
+    <button id="downloadBtn" style="display:none;">Download Merged JSON</button>
+    <script src="script.js"></script>
+</body>
+</html>
